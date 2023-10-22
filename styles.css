@@ -1,0 +1,64 @@
+body {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    padding: 20px;
+    /* Add padding to the body */
+    margin: 0;
+    background-color: #f0f0f0;
+    /* Add a light background color */
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.page {
+    display: none;
+    width: 100%;
+    max-width: 600px;
+    /* Set a maximum width for the content */
+    margin: 0 auto;
+    /* Center-align the content horizontally */
+    background-color: #fff;
+    /* Add a white background to the content */
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #555;
+}
